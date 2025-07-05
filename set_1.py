@@ -1,5 +1,5 @@
 def savings(gross_pay, tax_rate, expenses):
-    return(gross_pay - expenses - gross_pay*tax_rate)
+    return (int(gross_pay - expenses - gross_pay*tax_rate))
 
 
 def material_waste(total_material, material_units, num_jobs, job_consumption):
